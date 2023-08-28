@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar{
+  background-color:  #2F3C7E !important;
+}
+.nav-link{
+  color:#FBEAEB !important;
+}
+.navbar-nav{
+  margin-left: auto !important;
+}
+.navbar-brand{
+  color: aquamarine !important;
+}
+.btn{
+  background-color:  #2F3C7E !important;
+}
+.card{
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) !important;
+}
+.card img{
+  height: 14.625rem!important;
+  width:100%  !important;
+}
+.carousel img{
+   width: 100%;
+
+}
+.card-title{
+  height: 4.5rem !important;
+}
+.booking{
+  margin-top: 7% !important;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) !important;
+}
+.filter{
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5) !important;
+}
+.booking img{
+  height: 23.5rem !important;
+  width: 28.5rem !important;
+  border-radius: 0.5rem !important;
+}
+.booking .pay-btn{
+  background-color: #198754;
+}
+.user-booking {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-id {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.booking-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.booking-info p {
+  margin: 0;
+}
+
+.status {
+  font-weight: bold;
+  color: #3498db;
+}
+strong {
+  font-weight: bold;
+}
+.admin-dashboard {
+  text-align: center;
+}
+
+.booking-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+}
+
+.booking-table th,
+.booking-table td {
+  padding: 12px 20px;
+  text-align: left;
+}
+
+.booking-table th {
+  background-color: #333;
+  color: white;
+}
+
+.booking-table tbody tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+.booking-table tbody tr:hover {
+  background-color: #d3d3d3;
+}
+/* RoomForm.css */
+
+.room-form-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.room-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.room-details-table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.room-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+}
+
+.room-details-table th,
+.room-details-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.room-details-table th {
+  font-weight: bold;
+  background-color: #f5f5f5;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+}
+
+.room-details-table tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.room-details-table tbody tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.room-details-table tbody td {
+  border-bottom: 1px solid #ddd;
+}
+
+.room-details-table tbody td:last-child {
+  border-bottom: none;
+}
+/*landing page css*/
+/* styles/landingPage.css */
+
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: larger;
+  background-color: #f5f5f5;
+}
+
+.animated-text {
+  text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
